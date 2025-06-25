@@ -1,4 +1,4 @@
-declare module 'exit-app' {
+declare module 'rn-exit-app' {
   const RNExitApp: {
     exitApp: () => void;
   };
