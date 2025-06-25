@@ -1,5 +1,5 @@
 {
-  "name": "rn-exit-app",
+  "name": "RNExitApp",
   "version": "0.0.1",
   "private": true,
   "homepage": "https://github.com/CalvinButter/exit-app",
@@ -9,7 +9,7 @@
   "react-native": "./index",
   "source": "./index",
   "files": [
-    "js",
+    ".",
     "android",
     "!android/build"
   ],
