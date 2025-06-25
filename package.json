@@ -43,8 +43,5 @@
     "android": {
       "javaPackageName": "com.givebutter.exitapp"
     }
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
