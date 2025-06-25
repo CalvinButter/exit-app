@@ -6,7 +6,6 @@ description = packageJson["description"]
 homepage = packageJson["homepage"]
 license = packageJson["license"]
 author = packageJson["author"]
-repository = packageJson["repository"]["url"]
 iqVersion = version.split('-').first
 
 Pod::Spec.new do |s|
