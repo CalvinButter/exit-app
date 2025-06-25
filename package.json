@@ -8,11 +8,6 @@
   "types": "index.d.ts",
   "react-native": "./index",
   "source": "./index",
-  "files": [
-    ".",
-    "android",
-    "!android/build"
-  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
