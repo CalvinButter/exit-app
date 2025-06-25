@@ -2,6 +2,9 @@
   "name": "RNExitApp",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://github.com/CalvinButter/exit-app",
+  "author": "Calvin",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -45,4 +48,3 @@
     "node": ">=18"
   }
 }
-
