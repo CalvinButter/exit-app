@@ -12,14 +12,17 @@
 
 @implementation RCTNativeExitApp
 
-RCT_EXPORT_MODULE(NativeExitApp)
-
 - (void)exitApp {
   exit(0);
 }
 
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:(const facebook::react::ObjCTurboModule::InitParams &)params {
   return std::make_shared<facebook::react::NativeExitAppSpecJSI>(params); // Return a shared pointer to a TurboModule
+}
+
++ (NSString *)moduleName
+{
+  return @"NativeExitApp";
 }
 
 @end
